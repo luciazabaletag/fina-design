@@ -7,7 +7,7 @@ const Order = () => {
     <div className="max-w-screen-xl mx-auto px-6">
         <div>
           <Link to="/" className="-m-1.5 p-1.5">
-            <img src='src/assets/img/logogris.svg' alt='imagen logo' className='w-48'/>
+            <img src='/img/logogris.svg' alt='imagen logo' className='w-48'/>
           </Link>
         </div>
             <h1 className='text-center text-3xl uppercase font-bold mt-20'>Completar pedido</h1>

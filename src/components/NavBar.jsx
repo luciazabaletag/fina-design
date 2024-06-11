@@ -10,11 +10,11 @@ const NavBar = () => {
   const { notificationCart} = useCart()
 
     const productsNav = [
-      { name: 'Sofás', description: 'Sofás de diseño, económicos y cómodos', href: '/market', icon: "/src/assets/img/icons/sofa.svg", function: function () {handleSofas(), handleSubmitMobile(), handleSubmit()}},
-      { name: 'Sillas', description: 'Las sillas que no pueden faltar en casa', href: '/market', icon: "/src/assets/img/icons/chair.svg", function: function () {handleSillas(), handleSubmitMobile(), handleSubmit()} },
-      { name: 'Living', description: 'Mesas de comedor y salón', href: '/market', icon: "/src/assets/img/icons/table.svg", function: function () {handleLiving(), handleSubmitMobile(), handleSubmit()} },
-      { name: 'Luces', description: 'Luces decorativas y de mesa de noche.', href: '/market', icon: "/src/assets/img/icons/light.svg", function: function () {handleLuces(), handleSubmitMobile(), handleSubmit()} },
-      { name: 'Accesorios', description: 'Sección de decoración para casa', href: '/market', icon: "/src/assets/img/icons/house.svg", function: function () {handleAccesorios(), handleSubmitMobile(), handleSubmit()} },
+      { name: 'Sofás', description: 'Sofás de diseño, económicos y cómodos', href: '/market', icon: "/img/icons/sofa.svg", function: function () {handleSofas(), handleSubmitMobile(), handleSubmit()}},
+      { name: 'Sillas', description: 'Las sillas que no pueden faltar en casa', href: '/market', icon: "/img/icons/chair.svg", function: function () {handleSillas(), handleSubmitMobile(), handleSubmit()} },
+      { name: 'Living', description: 'Mesas de comedor y salón', href: '/market', icon: "/img/icons/table.svg", function: function () {handleLiving(), handleSubmitMobile(), handleSubmit()} },
+      { name: 'Luces', description: 'Luces decorativas y de mesa de noche.', href: '/market', icon: "/img/icons/light.svg", function: function () {handleLuces(), handleSubmitMobile(), handleSubmit()} },
+      { name: 'Accesorios', description: 'Sección de decoración para casa', href: '/market', icon: "/img/icons/house.svg", function: function () {handleAccesorios(), handleSubmitMobile(), handleSubmit()} },
     ]
 
   const [menuProduct, setMenuProduct] = useState(false)
@@ -53,7 +53,7 @@ const NavBar = () => {
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">
            
-            <img src='src/assets/img/logo.svg' alt='imagen logo' className='w-48'/>
+            <img src='/img/logo.svg' alt='imagen logo' className='w-48'/>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -146,7 +146,7 @@ const NavBar = () => {
         <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-50 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-zinc-900/10">
           <div className="flex items-center justify-between">
             <Link to="/">
-              <img className="w-48" src="src/assets/img/logogris.svg" alt="logo" />
+              <img className="w-48" src="/img/logogris.svg" alt="logo" />
             </Link>
             
             <button type="button" className="-m-2.5 rounded-md p-2.5 text-gray-700" onClick={handleSubmitMobile}>

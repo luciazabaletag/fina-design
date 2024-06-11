@@ -46,10 +46,10 @@ const PayForm = ({infoForm, setInfoForm, errors, touched, handleBlur}) => {
                 <span className='ml-2 font-semibold'>Tarjeta de crédito o débito</span>
           </div>
           <div className='flex flex-wrap gap-6 mt-2'>
-            <img className='w-8 md:w-10' src='src/assets/img/cardslogos/visa.svg' alt='visa logo' />
-            <img className='w-8 md:w-10' src='src/assets/img/cardslogos/amex.svg' alt='amex logo' />
-            <img className='w-8 md:w-10' src='src/assets/img/cardslogos/mastercard.svg' alt='mastercard logo' />
-            <img className='w-8 md:w-10' src='src/assets/img/cardslogos/discover.svg' alt='discover logo' />
+            <img className='w-8 md:w-10' src='/img/cardslogos/visa.svg' alt='visa logo' />
+            <img className='w-8 md:w-10' src='/img/cardslogos/amex.svg' alt='amex logo' />
+            <img className='w-8 md:w-10' src='/img/cardslogos/mastercard.svg' alt='mastercard logo' />
+            <img className='w-8 md:w-10' src='/img/cardslogos/discover.svg' alt='discover logo' />
           </div>
       </div>
 
@@ -87,7 +87,7 @@ const PayForm = ({infoForm, setInfoForm, errors, touched, handleBlur}) => {
                 <span className='ml-2 font-semibold'>Paypal</span>
             </div>
             <div>
-              <img className='w-14' src='src/assets/img/cardslogos/paypal.svg' alt='paypal logo' />
+              <img className='w-14' src='/img/cardslogos/paypal.svg' alt='paypal logo' />
             </div>
       </div>
     </div>
