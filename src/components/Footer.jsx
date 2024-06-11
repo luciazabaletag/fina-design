@@ -11,19 +11,19 @@ const Footer = () => {
             <div className=" flex flex-col gap-10 md:flex-row justify-between">
                 <div>
                     <div>
-                        <img className=" w-48" src="src/assets/img/logo.svg" alt="Imagen logo" />
+                        <img className=" w-48" src="/img/logo.svg" alt="Imagen logo" />
                     </div>
                     <div className=" flex flex-col gap-8 mt-8">
                         <div className="flex gap-3 items-center">
-                            <img src="src/assets/img/icons/place.svg" alt="Imagen Place" />
+                            <img src="/img/icons/place.svg" alt="Imagen Place" />
                             <p className="text-white font-regular">Una dirección 123, Barcelona, España.</p>
                         </div>
                         <div className="flex gap-3 items-center">
-                            <img src="src/assets/img/icons/phone.svg" alt="Imagen phone" />
+                            <img src="/img/icons/phone.svg" alt="Imagen phone" />
                             <p className="text-white font-regular">123456456789</p>
                         </div>
                         <div className="flex gap-3 items-center">
-                            <img src="src/assets/img/icons/email.svg" alt="Imagen Email" />
+                            <img src="/img/icons/email.svg" alt="Imagen Email" />
                             <p className="text-white font-regular">finadesign@finad.com</p>
                         </div>
                     </div>

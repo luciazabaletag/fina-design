@@ -5,7 +5,7 @@ const BoxInfo = () => {
         <div className='flex flex-col gap-10 items-center md:gap-5 justify-center md:flex-row flex-wrap'>
             <div className=' flex justify-center border border-zinc-900 p-4 w-52 sm:w-72 relative md:mb-5'>
                 <div className='absolute bg-zinc-900 rounded-full p-2 block top-0 -mt-5'>
-                <img src='src/assets/img/icons/envios.svg' alt='imagen envios' />
+                <img src='/img/icons/envios.svg' alt='imagen envios' />
 
                 </div>
                 <div className='flex flex-col'>
@@ -17,7 +17,7 @@ const BoxInfo = () => {
 
             <div className=' flex justify-center border border-zinc-900 p-4 w-52 sm:w-72 relative md:mb-5'>
                 <div className='absolute bg-zinc-900 rounded-full p-2 block top-0 -mt-5'>
-                <img src='src/assets/img/icons/pago.svg' alt='imagen pago' />
+                <img src='/img/icons/pago.svg' alt='imagen pago' />
 
                 </div>
                 <div className='flex flex-col'>
@@ -29,7 +29,7 @@ const BoxInfo = () => {
 
             <div className=' flex justify-center border border-zinc-900 p-4 w-52 sm:w-72 relative md:mb-5'>
                 <div className='absolute bg-zinc-900 rounded-full p-2 block top-0 -mt-5'>
-                <img src='src/assets/img/icons/online.svg' alt='imagen online' />
+                <img src='/img/icons/online.svg' alt='imagen online' />
 
                 </div>
                 <div className='flex flex-col'>
@@ -41,7 +41,7 @@ const BoxInfo = () => {
 
             <div className=' flex justify-center border border-zinc-900 p-4 w-52 sm:w-72 relative md:mb-5'>
                 <div className='absolute bg-zinc-900 rounded-full p-2 block top-0 -mt-5'>
-                <img src='src/assets/img/icons/tarjeta.svg' alt='imagen tarjeta' />
+                <img src='/img/icons/tarjeta.svg' alt='imagen tarjeta' />
 
                 </div>
                 <div className='flex flex-col'>

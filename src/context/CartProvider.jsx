@@ -31,6 +31,7 @@ const CartProvider = ({children}) => {
             
         setProductos([...productos, product])
         }
+        setCant(0)
     }
 
    let shippingprice = 5.99;
@@ -67,7 +68,6 @@ const CartProvider = ({children}) => {
     }
 
     const submit = (values) => {
-        console.log('enviando', values)
         notifyBuy()
         setTimeout(() => {
             navigate("/")
@@ -102,7 +102,9 @@ const CartProvider = ({children}) => {
             minshipping,
             submit,
             handleAddCart,
-            handleChange,         
+            handleChange,    
+            cant,
+            setCant,  
         }}
     >
         {children}
