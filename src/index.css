@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+input[type="email"]:focus ~ .input-email,
+input[type="email"]:not(:placeholder-shown) ~ .input-email{
+  @apply text-zinc-900 transform -translate-y-8 -translate-x-2 scale-75;
+}
+

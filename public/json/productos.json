@@ -1,0 +1,70 @@
+[
+    {
+        "id":1,"category":"sillas","name":"Silla Armchair","price":299,"image":"src/assets/img/chair.jpg","sale":"yes","newprice":199, "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 43, "color": "Verde oscuro"
+    },
+    {
+        "id":19,"category":"accesorios","name":"Reloj de pared","price":60,"image":"src/assets/img/accesorios3.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 25, "color": "Madera"
+    },
+    {
+        "id":15,"category":"living","name":"Manta","price":60,"image":"src/assets/img/living3.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 48, "color": "Marrón - Gris"
+    },
+    {
+        "id":12,"category":"luces","name":"Lampara Cargolan","price":59,"image":"src/assets/img/luz4.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 453, "color": "Negro"
+    },
+    {
+        "id":17,"category":"accesorios","name":"Centro de mesa","price":450,"image":"src/assets/img/accesorios.jpg","sale":"yes","newprice":199, "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 78, "color": "Madera"
+    },
+    {
+        "id":5,"category":"sofás","name":"Sofa Ampala","price":910,"image":"src/assets/img/sofa.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 33, "color": "Gris claro"
+    },
+    {
+        "id":18,"category":"accesorios","name":"Juego deco madera","price":38,"image":"src/assets/img/accesorios2.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 23, "color": "Madera"
+    },
+    {
+        "id":4,"category":"sillas","name":"Silla Ampala","price":110,"image":"src/assets/img/chair4.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 88, "color": "Blanca"
+    },
+    {
+        "id":9,"category":"luces","name":"Lampara Ampala","price":150,"image":"src/assets/img/luz.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 123, "color": "Negro"
+    },
+    {
+        "id":11,"category":"luces","name":"Lampara Krum","price":110,"image":"src/assets/img/luz3.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 456, "color": "Beige"
+    },
+    {
+        "id":20,"category":"accesorios","name":"Bowls","price":59,"image":"src/assets/img/accesorios4.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 18, "color": "Madera"
+    },
+    {
+        "id":7,"category":"sofás","name":"Sofa Krum","price":840,"image":"src/assets/img/sofa3.jpg","sale":"yes","newprice":750, "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 55, "color": "Blanco"
+    },
+    {
+        "id":8,"category":"sofás","name":"Sofa Cargolan","price":510,"image":"src/assets/img/sofaa.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 63, "color": "Blanco"
+    },
+    {
+        "id":13,"category":"living","name":"Sillon y Lámpara","price":450,"image":"src/assets/img/living.jpg","sale":"yes","newprice":350, "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 96, "color": "Amarillo"
+    },
+    {
+        "id":21,"category":"accesorios","name":"Espejo","price":95,"image":"src/assets/img/accesorioss.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 862, "color": "Madera"
+    },
+    {
+        "id":6,"category":"sofás","name":"Sofa Calefa","price":360,"image":"src/assets/img/sofa2.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 586, "color": "Marrón"
+    },
+    {
+        "id":2,"category":"sillas","name":"Silla Charizar","price":139,"image":"src/assets/img/chairr.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 111, "color": "Blanco"
+    },
+    {
+        "id":10,"category":"luces","name":"Lampara Calefa","price":38,"image":"src/assets/img/luz2.jpg","sale":"yes","newprice":28, "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 38, "color": "Negro"
+    },
+    {
+        "id":16,"category":"living","name":"Aparador","price":59,"image":"src/assets/img/living4.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 75, "color": "Verde"
+    },
+    {
+        "id":3,"category":"sillas","name":"Silla Chaircha","price":499,"image":"src/assets/img/chair3.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 125, "color": "Blanco"
+    },
+    {
+        "id":14,"category":"living","name":"Estantes","price":38,"image":"src/assets/img/living2.jpg", "info": "Aquí tendras una breve información y descripción del producto, como puede ser el tipo de material, tipo de tela, etc.", "sold": 82, "color": "Negro"
+    }
+]
+
+
+    
+    
+
